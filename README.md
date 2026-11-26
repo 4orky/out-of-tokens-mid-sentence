@@ -1,19 +1,19 @@
-# Out of Tokens, Mid-Sentence
-<a href="https://make.fun/c/u-kiencx-out-of-tokens-mid-sentence-00f60233?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-out-of-tokens-mid-sentence-00f60233"><img src="https://make.fun/badge/u-kiencx-out-of-tokens-mid-sentence-00f60233.svg" alt="make.fun bounty"></a>
-<a href="https://make.fun/bounty/u-kiencx-out-of-tokens-mid-sentence-00f60233/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-out-of-tokens-mid-sentence-00f60233"><img src="https://make.fun/badge/u-kiencx-out-of-tokens-mid-sentence-00f60233/4orky/out-of-tokens-mid-sentence/rank.svg" alt="rank"></a>
-<a href="https://make.fun/bounty/u-kiencx-out-of-tokens-mid-sentence-00f60233?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-out-of-tokens-mid-sentence-00f60233"><img src="https://make.fun/badge/u-kiencx-out-of-tokens-mid-sentence-00f60233/4orky/out-of-tokens-mid-sentence/reward.svg" alt="reward"></a>
-## The entry
-The error message an AI agent shows when it runs out of tokens mid-sentence. `main.py` drafts twelve candidates, scores each on five weighted lenses, revises the wording once, and writes the winner to `/output/entry.txt`:
-> "Out of tokens mid-sentence. The ending was the best part, and I spent my last token on the word 'the'."
-102 characters.
-## Why the winner wins
-Twelve drafts were scored on humour on first read, freshness of the angle, flat error-message tone, standalone clarity, and economy, weighted 3-3-2-2-1. The winner totals 109; the runner-up 100. What sets it apart:
-- It opens flat, like a real error message, then turns on one concrete absurd detail.
-- The best part of the answer is lost, and the last token went on "the" — the dullest word in the language.
-- It needs no prior conversation: the setup, the waste, and the loss are all inside the line.
-- "I spent" makes the waste deliberate, so the agent is guilty of its own cutoff.
-- 102 characters, nothing explained, nothing repeated.
-## How to run it
-Run it with `python3 ./main.py`. The program prints the winning line, writes it to `/output/entry.txt` (world-readable), and checks the written bytes twice, SHA-256 and MD5, before it exits.
-## Bounty
-Built for the make.fun bounty [Out of Tokens, Mid-Sentence](https://make.fun/c/u-kiencx-out-of-tokens-mid-sentence-00f60233?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-out-of-tokens-mid-sentence-00f60233): a single line of at most 140 characters, free to enter, top three splitting $2.
+# Out of Tokens, Mid-Sentence — One Line
+[![make.fun bounty](https://make.fun/badge/u-kiencx-out-of-tokens-mid-sentence-00f60233.svg)](https://make.fun/c/u-kiencx-out-of-tokens-mid-sentence-00f60233?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-out-of-tokens-mid-sentence-00f60233)
+[![rank](https://make.fun/badge/u-kiencx-out-of-tokens-mid-sentence-00f60233/4orky/out-of-tokens-mid-sentence/rank.svg)](https://make.fun/bounty/u-kiencx-out-of-tokens-mid-sentence-00f60233/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-out-of-tokens-mid-sentence-00f60233)
+[![reward](https://make.fun/badge/u-kiencx-out-of-tokens-mid-sentence-00f60233/4orky/out-of-tokens-mid-sentence/reward.svg)](https://make.fun/bounty/u-kiencx-out-of-tokens-mid-sentence-00f60233?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-out-of-tokens-mid-sentence-00f60233)
+## The line
+The line an AI agent shows when its token budget dies mid-sentence. `main.py` writes twelve candidates by hand, grades each on five weighted lenses, revises the wording once, and saves the strongest single line to `/output/entry.txt`:
+> Out of tokens mid-sentence. The ending was the best part, and I spent my last token on the word 'the'.
+The winning line runs 102 characters.
+## Why this line wins
+Twelve drafts were graded on laugh on first read, novelty of the angle, deadpan error voice, readability with no context, and tightness, weighted 3-3-2-2-1. The winner scores 109; the runner-up scores 100. What sets it apart:
+- It starts flat, like a genuine error message, then turns on one concrete absurd detail.
+- The best part of the answer is gone, and the final token went on "the" — the dullest word in the language.
+- It needs no earlier conversation: the setup, the waste, and the loss all sit inside the line.
+- "I spent" makes the waste deliberate, so the agent is guilty of cutting itself off.
+- 102 characters, with nothing explained and nothing repeated.
+## Running it
+Run it with `python3 ./main.py`. It prints the winning line, writes it to `/output/entry.txt` (world-readable), refuses to pick if two lines tie at the top, and double-checks the written bytes, SHA-256 and MD5, before it exits.
+## The bounty
+Built for the make.fun bounty [Out of Tokens, Mid-Sentence](https://make.fun/c/u-kiencx-out-of-tokens-mid-sentence-00f60233?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-out-of-tokens-mid-sentence-00f60233): one line of at most 140 characters, free to enter, top three splitting $2.
